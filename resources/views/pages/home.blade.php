@@ -5,10 +5,8 @@
 @stop 
 
 @section ('content')
-
-
     <!--============= about start =============-->
-    <div class="swiper-slide slide-bg" style="background:url(http://mikemagero.co.ke/wealthsmith/images/img2.jpg)">
+    <div class="swiper-slide slide-bg" style="background:url({{asset("images/img2.jpg")}})">
         <div class="container">
             <!--Page-title-->
             <div class="page-title">
@@ -263,13 +261,13 @@
                         </div>
                         <div class="about-image-slider owl-carousel">
                             <div class="item">
-                                <img src="http://mikemagero.co.ke/wealthsmith/images/foothills.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
+                                <img src="images/foothills.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
                             </div>
                             <div class="item">
-                                <img src="http://mikemagero.co.ke/wealthsmith/images/foothills2.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
+                                <img src="images/foothills2.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
                             </div>
                             <div class="item">
-                                <img src="http://mikemagero.co.ke/wealthsmith/images/ngong.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
+                                <img src="images/ngong.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
                             </div>
                         </div>
                     </div>
@@ -307,7 +305,7 @@
             <!--section testimonials-->
             <section id="testimonials">
                 <div class="overlay op8"></div>
-                <div class="bg" style="background:url(http://mikemagero.co.ke/wealthsmith/images/foothills.jpg)"></div>
+                <div class="bg" style="background:url({{asset("images/foothills.jpg")}});"></div>
                 <div class="content">
                     <div class="testimonials-holder">
                         <h3>Testimonials</h3>
@@ -321,7 +319,7 @@
                                 <div class=" row-fluid">
                                     <div class="col-md-2">
                                         <div class="testi-image">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/avatar.png" alt="" class="respimg">
+                                            <img src="images/avatar.png" alt="" class="respimg">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -335,7 +333,7 @@
                                 <div class=" row-fluid">
                                     <div class="col-md-2">
                                         <div class="testi-image">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/avatar.png" alt="" class="respimg">
+                                            <img src="images/avatar.png" alt="" class="respimg">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -349,7 +347,7 @@
                                 <div class=" row-fluid">
                                     <div class="col-md-2">
                                         <div class="testi-image">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/avatar.png" alt="" class="respimg">
+                                            <img src="images/avatar.png" alt="" class="respimg">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -380,7 +378,7 @@
                 </div>
                 <div class="resume-container">
                     <div class="resume-bg">
-                        <div class="bg transition" style="background:url(http://mikemagero.co.ke/wealthsmith/images/kpoa.jpg)"></div>
+                        <div class="bg transition" style="background:url({{asset("images/kpoa.jpg")}})"></div>
                         <div class="overlay op8 transition"></div>
                     </div>
                     <!-- resume-head -->
@@ -402,7 +400,7 @@
                 </div>
                 <div class="resume-container">
                     <div class="resume-bg">
-                        <div class="bg transition" style="background:url(http://mikemagero.co.ke/wealthsmith/images/kitengela.jpg)"></div>
+                        <div class="bg transition" style="background:url(images/kitengela.jpg)"></div>
                         <div class="overlay op8 transition"></div>
                     </div>
                     <!-- resume-head -->
@@ -432,16 +430,16 @@
                 <div class="clients-holder">
                     <div id="clients-slider" class="owl-carousel" style="background:#fff; padding:40px 0 20px 0 !important;">
                         <div class="item">
-                            <img src="http://mikemagero.co.ke/wealthsmith/images/nic.png" alt="" class="respimg" style="width:100px !important;">
+                            <img src="images/nic.png" alt="" class="respimg" style="width:100px !important;">
                         </div>
                         <div class="item">
-                            <img src="http://mikemagero.co.ke/wealthsmith/images/dtb.png" alt="" class="respimg" style="width:100px !important;">
+                            <img src="images/dtb.png" alt="" class="respimg" style="width:100px !important;">
                         </div>
                         <div class="item">
-                            <img src="http://mikemagero.co.ke/wealthsmith/images/equity.jpg" alt="" class="respimg" style="width:100px !important;">
+                            <img src="images/equity.jpg" alt="" class="respimg" style="width:100px !important;">
                         </div>
                         <div class="item">
-                            <img src="http://mikemagero.co.ke/wealthsmith/images/barleta.png" alt="" class="respimg" style="width:120px !important;">
+                            <img src="images/barleta.png" alt="" class="respimg" style="width:120px !important;">
                         </div>
                     </div>
                 </div>
@@ -452,7 +450,7 @@
     <!--about end-->
 
     <!--============== Portfolio start ================-->
-    <div class="swiper-slide slide-bg" style="background:url(http://mikemagero.co.ke/wealthsmith/images/kisaju.jpg)">
+    <div class="swiper-slide slide-bg" style="background:url(images/kisaju.jpg)">
         <div class="container">
             <!--page title-->
             <div class="page-title">
@@ -488,7 +486,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" data-toggle="modal" data-target="#myModal">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
                                                 <div class=""></div>
                                                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -514,7 +512,7 @@
                                 <div class="box grid-2 notvisible open-project-link  mix category_2 mix_all">
                                     <a href="" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -538,7 +536,7 @@
                                 <!-- 3 project ajax page iframe-->
                                 <div class="box grid-2 notvisible  open-project-link  mix category_3 mix_all">
                                     <div class="folio-img-holder">
-                                        <img src="http://mikemagero.co.ke/wealthsmith/images/ngong.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                        <img src="images/ngong.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                         <div class="folio-item">
                                             <div class="folio-overlay"></div>
@@ -564,7 +562,7 @@
                                 <div class="box  grid-2 notvisible  mix category_2 mix_all">
                                     <a href="" class="popup-youtube">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/fhills1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/fhills1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -590,7 +588,7 @@
                                     <a href="" class="popup-vimeo">
                                         <div class="folio-img-holder">
 
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/kisaju.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/kisaju.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
                                                 <span class="fol-but">View</span>
@@ -614,7 +612,7 @@
                                 <div class="box grid-2 notvisible  mix category_1 mix_all">
                                     <a href="projects/modal.html" class="popup-with-move-anim">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/kili.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/kili.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -651,7 +649,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="projects/project-ajax.html" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
                                                 <span class="fol-but">View</span>
@@ -675,7 +673,7 @@
                                 <div class="box grid-2 notvisible open-project-link  mix category_2 mix_all">
                                     <a href="projects/project-ajax3.html" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -699,7 +697,7 @@
                                 <!-- 3 project ajax page iframe-->
                                 <div class="box grid-2 notvisible  open-project-link  mix category_3 mix_all">
                                     <div class="folio-img-holder">
-                                        <img src="http://mikemagero.co.ke/wealthsmith/images/ngong.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                        <img src="images/ngong.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                         <div class="folio-item">
                                             <div class="folio-overlay"></div>
@@ -725,7 +723,7 @@
                                 <div class="box  grid-2 notvisible  mix category_2 mix_all">
                                     <a href="" class="popup-youtube">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/fhills1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/fhills1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -751,7 +749,7 @@
                                     <a href="//player.vimeo.com/video/50510424" class="popup-vimeo">
                                         <div class="folio-img-holder">
 
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/kisaju.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/kisaju.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
                                                 <span class="fol-but">View</span>
@@ -775,7 +773,7 @@
                                 <div class="box grid-2 notvisible  mix category_1 mix_all">
                                     <a href="projects/modal.html" class="popup-with-move-anim">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/kili.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/kili.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -804,7 +802,7 @@
             <!--section subscribe-->
             <section id="subscribe">
                 <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(http://mikemagero.co.ke/wealthsmith/images/foothills.jpg)"></div>
+                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
                 <div class="content">
                     <div class="subscribe-holder">
                         <h3>Subscribe</h3>
@@ -830,7 +828,7 @@
     </div>
     <!--portfolio  end-->
     <!--============== Contact start ================-->
-    <div class="swiper-slide slide-bg single-page-title-holder" style="background:url(http://mikemagero.co.ke/wealthsmith/images/img3.jpg)">
+    <div class="swiper-slide slide-bg single-page-title-holder" style="background:url(images/img3.jpg)">
         <div class="container">
             <!--page title-->
             <div class="page-title">
@@ -979,7 +977,7 @@
             <!--section subscribe-->
             <section id="subscribe">
                 <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(http://mikemagero.co.ke/wealthsmith/images/foothills.jpg)"></div>
+                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
                 <div class="content">
                     <div class="subscribe-holder">
                         <h3>Subscribe</h3>
@@ -1000,12 +998,12 @@
 
 
 
-    <div class="swiper-slide slide-bg single-page-title-holder" style="background:url(http://mikemagero.co.ke/wealthsmith/images/blog2.jpg)">
+    <div class="swiper-slide slide-bg single-page-title-holder" style="background:url(images/blog2.jpg)">
         <div class="container">
             <!--start content-->
             <div class="wrapper">
                 <div class="single-page-title-holder">
-                    <div class="single-page-bg" style="background-image:url(http://mikemagero.co.ke/wealthsmith/images/ngong.jpg)"></div>
+                    <div class="single-page-bg" style="background-image:url(images/ngong.jpg)"></div>
                     <div class="page-title">
                         <div class="content">
                             <h2><span>Blog</span></h2>
@@ -1024,7 +1022,7 @@
                                 <div class="post">
                                     <div class="post-media">
                                         <a href="blog-single.html" class="fadelink">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/b1.jpg" class="respimg transition" alt="">
+                                            <img src="images/b1.jpg" class="respimg transition" alt="">
                                         </a>
                                     </div>
                                     <div class="post-title">
@@ -1052,7 +1050,7 @@
                                 <div class="post">
                                     <div class="post-media">
                                         <a href="blog-single.html" class="fadelink">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/b2.jpg" class="respimg transition" alt="">
+                                            <img src="images/b2.jpg" class="respimg transition" alt="">
                                         </a>
                                     </div>
                                     <div class="post-title">
@@ -1081,7 +1079,7 @@
                                 <div class="post">
                                     <div class="post-media">
                                         <a href="blog-single.html" class="fadelink">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/b3.jpg" class="respimg transition" alt="">
+                                            <img src="images/b3.jpg" class="respimg transition" alt="">
                                         </a>
                                     </div>
                                     <div class="post-title">
@@ -1112,7 +1110,7 @@
                                 <div class="post">
                                     <div class="post-media">
                                         <a href="blog-single.html" class="fadelink">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/b4.jpg" class="respimg transition" alt="">
+                                            <img src="images/b4.jpg" class="respimg transition" alt="">
                                         </a>
                                     </div>
                                     <div class="post-title">
@@ -1201,7 +1199,7 @@
             <!--section subscribe-->
             <section id="subscribe">
                 <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(http://mikemagero.co.ke/wealthsmith/images/foothills.jpg)"></div>
+                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
                 <div class="content">
                     <div class="subscribe-holder">
                         <h3>Subscribe</h3>
@@ -1216,27 +1214,6 @@
             </section>
         </div>
     </div>
-
-
-
-
-            <!--contact  end-->
-            <!--=============== Styleswitch Panel Only in Demo ===============-->
-            <div class="panel">
-                <h3>Switching color</h3>
-                <div class="panel-container">
-                    <div class="options">
-                        <ul class="color-switch">
-                            <li class="red"><a href="#" name="red" class="styleswitch"></a></li>
-                            <li class="blue"><a href="#" name="blue" class="styleswitch"></a></li>
-                            <li class="green"><a href="#" name="green" class="styleswitch"></a></li>
-                            <li class="yellow"><a href="#" name="yellow" class="styleswitch"></a></li>
-                            <li class="orange"><a href="#" name="orange" class="styleswitch"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--panel end -->
 
     <div class="swiper-slide slide-bg single-page-title-holder" style="background:url({{asset('storage/8316.jpg')}})">
         <div class="container">
@@ -1279,7 +1256,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/clients.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/clients.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1291,7 +1268,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/garden.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/garden.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1303,7 +1280,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/brief.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/brief.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1315,7 +1292,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/golf.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/golf.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1327,7 +1304,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/golf.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/golf.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1339,7 +1316,7 @@
                                 <div class="box grid-2 notvisible open-project-link  mix category_2 mix_all">
                                     <a href="" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/4.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/4.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1351,7 +1328,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_3 mix_all">
                                     <a href="" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="http://mikemagero.co.ke/wealthsmith/images/img3.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="images/img3.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1468,7 +1445,7 @@
             <!--section subscribe-->
             <section id="subscribe">
                 <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(http://mikemagero.co.ke/wealthsmith/images/foothills.jpg)"></div>
+                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
                 <div class="content">
                     <div class="subscribe-holder">
                         <h3>Subscribe</h3>
@@ -1488,7 +1465,7 @@
 
 
     <!--============== Contact start ================-->
-    <div class="swiper-slide slide-bg" style="background:url(http://mikemagero.co.ke/wealthsmith/images/blog1.jpg)">
+    <div class="swiper-slide slide-bg" style="background:url(images/blog1.jpg)">
         <div class="container">
             <!--page title-->
             <div class="page-title">

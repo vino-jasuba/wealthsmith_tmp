@@ -751,7 +751,8 @@ $(document).ready(function() {
             nextItem = roundround(properties);
             changeProperty(properties[Math.floor(Math.random()*properties.length)]);
             setInterval(function() {
-                changeProperty(nextItem());
+                // changeProperty(nextItem());
+                $('#myCarousel').carousel('next');
             }, 30000);
         })
         .catch(function (error) {

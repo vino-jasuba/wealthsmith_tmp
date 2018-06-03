@@ -14,16 +14,16 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/db353e48b5.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://mikemagero.co.ke/wealthsmith/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="http://mikemagero.co.ke/wealthsmith/css/owl.carousel.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="http://mikemagero.co.ke/wealthsmith/css/idangerous.swiper.css">
-    <link rel="stylesheet" type="text/css" href="http://mikemagero.co.ke/wealthsmith/css/magnific-popup.css" media="all">
-    <link rel="stylesheet" type="text/css" href="http://mikemagero.co.ke/wealthsmith/css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://mikemagero.co.ke/wealthsmith/css/color.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/color.css">
     <!-- panel css -->
     <link rel="stylesheet" href="http://mikemagero.co.ke/wealthsmith/css/panel.css" type="text/css" media="screen">
     <!--=============== favicons ===============-->
-    <link rel="shortcut icon" href="http://mikemagero.co.ke/wealthsmith/images/logo.png">
+    <link rel="shortcut icon" href="images/logo.png">
     <!--=============== fonts ===============-->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,600,800' rel='stylesheet' type='text/css'>
@@ -37,7 +37,7 @@
     <div class="nav-holder">
         <!--logo-->
         <div class="logo-holder">
-            <img src="http://mikemagero.co.ke/wealthsmith/images/logo.png" alt="">
+            <img src="images/logo.png" alt="">
         </div>
         <!--nav button-->
         <div class="btn-menu-wrapper elem call-menu transition2">
@@ -78,25 +78,25 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <!--================= Home start ================-->
-            <div class="swiper-slide slide-bg" style="background:url(http://mikemagero.co.ke/wealthsmith/images/foothills.jpg)">
+            <div class="swiper-slide slide-bg" style="background:url(images/foothills.jpg)">
                 <!-- Slider  -->
                 <div id="slides" class="transition-slider">
                     <ul class="slides-container">
                         <!-- Slide 1 -->
                         <li>
-                            <div style="background-image: url('http://mikemagero.co.ke/wealthsmith/images/s1.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            <div style="background-image: url('images/s1.jpg');"   class="slides-fullscreen-img anim-slides"></div>
                         </li>
                         <!-- Slide 2 -->
                         <li>
-                            <div style="background-image: url('http://mikemagero.co.ke/wealthsmith/images/s2.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            <div style="background-image: url('images/s2.jpg');"   class="slides-fullscreen-img anim-slides"></div>
                         </li>
                         <!-- Slide 3 -->
                         <li>
-                            <div style="background-image: url('http://mikemagero.co.ke/wealthsmith/images/s3.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            <div style="background-image: url('images/s3.jpg');"   class="slides-fullscreen-img anim-slides"></div>
                         </li>
                         <!-- Slide 4 -->
                         <li>
-                            <div style="background-image: url('http://mikemagero.co.ke/wealthsmith/images/s4.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            <div style="background-image: url('images/s4.jpg');"   class="slides-fullscreen-img anim-slides"></div>
                         </li>
 
                         <li>
@@ -106,24 +106,90 @@
                 </div><!-- Slider end -->
                 <div class="overlay"></div>
                 <div class="container">
-                        <section class="homeholder no-bg">
-                            <div class="content" id="home">
-                                <h2 id="property_name" class="elem tetx-rotator"></h2>
-                                <div class="home-separator"><span></span></div>
-                                <div class="tetx-rotator">
-                                    <div class="tlt">
-                                        <ul class="texts">
-                                            <li id="property_deed"></li>
-                                            <li id="property_size"></li>
-                                            <li id="property_beacons"></li>
-                                            <li id="property_price"></li>
-                                        </ul>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <section class="homeholder no-bg">
+                                    <div class="content" id="home">
+                                        <h2 id="property_name" class="elem tetx-rotator">Kisaju Gardens</h2>
+                                        <div class="home-separator"><span></span></div>
+                                        <div class="tetx-rotator">
+                                            <div class="tlt">
+                                                <ul class="texts">
+                                                    <li id="property_deed">Ready Title Deeds.</li>
+                                                    <li id="property_size"></li>
+                                                    <li id="property_beacons">Beacons Ready</li>
+                                                    <li id="property_price">Ksh 750,000 </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a id="property_link" href="#folio" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
                                     </div>
-                                </div>
-                                <a id="property_link" href="#folio" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                    <div class="clearfix"></div>
+                                </section>
                             </div>
-                            <div class="clearfix"></div>
-                        </section>
+
+                            <div class="item">
+                                <section class="homeholder no-bg">
+                                    <div class="content" id="home">
+                                        <h2 id="property_name" class="elem tetx-rotator">Nanyuki Royale</h2>
+                                        <div class="home-separator"><span></span></div>
+                                        <div class="tetx-rotator">
+                                            <div class="tlt">
+                                                <ul class="texts">
+                                                    <li id="property_deed">Ready Title Deeds.</li>
+                                                    <li id="property_size"></li>
+                                                    <li id="property_beacons">Beacons Ready</li>
+                                                    <li id="property_price">Ksh 199,000</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a id="property_link" href="#folio" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </div>
+
+                            <div class="item">
+                                <section class="homeholder no-bg">
+                                    <div class="content" id="home">
+                                        <h2 id="property_name" class="elem tetx-rotator">Woodlands Nakuru</h2>
+                                        <div class="home-separator"><span></span></div>
+                                        <div class="tetx-rotator">
+                                            <div class="tlt">
+                                                <ul class="texts">
+                                                    <li id="property_deed">Ready Title Deeds.</li>
+                                                    <li id="property_size">Unwind,Escape,Discover</li>
+                                                    <li id="property_beacons">Beacons Ready</li>
+                                                    <li id="property_price">Ksh 349,000</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a id="property_link" href="#folio" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                     <footer>
                         <div class="row-fluid">
                             <div class="span6">
