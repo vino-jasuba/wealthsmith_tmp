@@ -7,7 +7,7 @@
                             <div class="row-fluid" style="margin: 30px;">
                                 <div class="span12">
                                     <div class="item">
-                                         <img src="images/s4.jpg" style="width: 100%; height: auto" class="respimg">
+                                         <img src="storage/kisaju_1.jpg" style="width: 100%; height: auto" class="respimg">
                                     </div>
                                 </div>
                                 <div class="span12">

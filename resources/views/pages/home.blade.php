@@ -488,7 +488,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="{{route("kisaju_gardens")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                         <div class="folio-img-holder">
-                                            <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="storage/kisaju_1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
                                                 <span class="fol-but">View</span>
@@ -512,7 +512,7 @@
                                 <div class="box grid-2 notvisible open-project-link  mix category_1 mix_all">
                                     <a href="{{route("woodlands_nakuru")}}" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="storage/woodlands_4.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -537,7 +537,7 @@
                                 <div class="box grid-2 notvisible open-project-link  mix category_1 mix_all">
                                     <a href="{{route("nanyuki_royale")}}" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="storage/royale.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -564,7 +564,7 @@
                         <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                             <a href="{{route("ngong_view")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                 <div class="folio-img-holder">
-                                    <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                    <img src="storage/ngong_view_2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                     <div class="folio-item">
                                         <div class="folio-overlay"></div>
                                         <span class="fol-but">View</span>
@@ -589,7 +589,7 @@
                         <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                             <a href="{{route("nanyuki_foothills")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                 <div class="folio-img-holder">
-                                    <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                    <img src="storage/nanyuki_foothills_1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                     <div class="folio-item">
                                         <div class="folio-overlay"></div>
                                         <span class="fol-but">View</span>
@@ -614,7 +614,7 @@
                         <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                             <a href="{{route("amara_gardens")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                 <div class="folio-img-holder">
-                                    <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                    <img src="storage/amara.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                     <div class="folio-item">
                                         <div class="folio-overlay"></div>
                                         <span class="fol-but">View</span>
@@ -1128,7 +1128,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="storage/nanyuki_foothils.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="storage/woodlands_4.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">

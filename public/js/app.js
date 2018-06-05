@@ -4,6 +4,13 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+$.fn.scrollView = function () {
+    return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 1000);
+    });
+};
 
 // jpreLoader   ----------------------------------------
 $("#main").jpreLoader({
@@ -85,7 +92,6 @@ function initKrobs() {
     });
     $(".gw").click(function(b) {
         b.preventDefault();
-        a.swipeTo(2);
     });
     $(".go-contact").click(function(b) {
         b.preventDefault();
@@ -761,3 +767,10 @@ $(document).ready(function() {
 });
 
 // slider content --------------------------------
+$("#property-link").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#folio").offset().top + offset
+    }, 2000);
+});

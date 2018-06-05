@@ -98,7 +98,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <a id="property_link" href="#showme" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                    <a id="property_link" href="#" class="button gw transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
                                 </div>
                                 <div class="clearfix"></div>
                             </section>
@@ -119,7 +119,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <a id="property_link" href="#showme" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                    <a id="property_link" href="#" class="button gw transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
                                 </div>
                                 <div class="clearfix"></div>
                             </section>
@@ -132,16 +132,16 @@
                                     <h2 id="property_name" class="elem tetx-rotator">Woodlands Nakuru</h2>
                                     <div class="home-separator"><span></span></div>
                                     <div class="tetx-rotator">
-                                        <div class="tlt">
-                                            <ul class="texts">
-                                                <li id="property_deed">Ready Title Deeds.</li>
-                                                <li id="property_deed">Unwind escape discover.</li>
-                                                <li id="property_beacons">Beacons Ready</li>
-                                                <li id="property_price">Ksh 349,000</li>
+                                        <div class="tlt ">
+                                            <ul class="texts text-dark">
+                                                <li id="property_deed" class="text-dark">Ready Title Deeds.</li>
+                                                <li id="property_deed" class="text-dark">Unwind escape discover.</li>
+                                                <li id="property_beacons" class="text-dark">Beacons Ready</li>
+                                                <li id="property_price" class="text-dark">Ksh 349,000</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <a id="property_link" href="#showme" class="button  transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                    <a id="property_link" href="#" class="button gw transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
                                 </div>
                                 <div class="clearfix"></div>
                             </section>
