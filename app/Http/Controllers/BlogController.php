@@ -426,9 +426,12 @@ class BlogController extends Controller
             'subscription_email' => 'required|email'
         ]);
 
-        $user = new WealthSmithClient('name', $request->input('email'));
+        $email = $request->input("subscription_email");
+        $emailComponents = explode("@",$email);
 
-        Mail::to($user)->send(new SubscriptionCreated('Subscription created'));
+        $user = new WealthSmithClient($emailComponents[0], $email);
+
+        Mail::to($user)->send(new SubscriptionCreated('Thank you ' . $user->name . ', your subscription has been created. You will now be able to receive notifications from The Wealthsmith'));
 
         return response()->json(['message' => 'Subscription created']);
     }

@@ -736,6 +736,7 @@ $(document).ready(function() {
         document.getElementById("property_beacons").innerHTML = i.beacons;
         document.getElementById("property_price").innerHTML = "Ksh " + i.price;
         document.getElementById("property_size").innerHTML = i.size;
+        document.getElementsByClassName("slides-fullscreen-img").style="background-image: url('images/s1.jpg');";
     }
 
     function readResponseData(data) {
@@ -749,10 +750,9 @@ $(document).ready(function() {
             console.log(response);
             properties = readResponseData(response.data);
             nextItem = roundround(properties);
-            changeProperty(properties[Math.floor(Math.random()*properties.length)]);
+            changeProperty(nextItem());
             setInterval(function() {
-                // changeProperty(nextItem());
-                $('#myCarousel').carousel('next');
+                changeProperty(nextItem());
             }, 30000);
         })
         .catch(function (error) {

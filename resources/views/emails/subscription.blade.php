@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
+    <title></title>
 </head>
 <body>
 
-<h1>{{$custom_message_content}}</h1>
-<p>This is a paragraph.</p>
+<p>{{$custom_message_content}}</p>
 
 </body>
 </html>

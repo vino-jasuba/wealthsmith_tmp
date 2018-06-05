@@ -252,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right-colum">
+                <div class="right-column">
                     <!--about image slider -->
                     <div class="about-image">
                         <div class="customNavigation">
@@ -273,6 +273,7 @@
                     </div>
                 </div>
             </section>
+
             <!--section facts-->
             <section id="facts">
                 <div class="content">
@@ -443,10 +444,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="to-top-holder gray-bg"><a href="#" class=""><h4>   Our Partners</h4></a></div>
+                <div class="to-top-holder gray-bg"><a href="#" class=""><h4 class="col-md-3">Our Partners</h4></a></div>
             </section>
         </div>
     </div>
+
     <!--about end-->
 
     <!--============== Portfolio start ================-->
@@ -484,20 +486,18 @@
                             <div id="folio_container">
                                 <!-- 1 project ajax page slider-->
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
-                                    <a href="" class="open-project" data-toggle="modal" data-target="#myModal">
+                                    <a href="{{route("kisaju_gardens")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                         <div class="folio-img-holder">
                                             <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
-                                                <div class=""></div>
-                                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                                                    Launch demo modal
-                                                </button>
+                                                <div class="folio-overlay"></div>
+                                                <span class="fol-but">View</span>
                                             </div>
                                         </div>
                                     </a>
                                     <div class="box-details">
-                                        <h4>Nanyuki Havens</h4>
-                                        <p>Enjoy serenity of Nanyuki Haven today.Located 16KM away from Nanyuki town, 2km from Ol-Pejeta conservancy, 1.7km from Mount Kenya wildlife estate,1km from Sweet waters tented camp Serena, 1.6km from Enaai Golf course.</p><br>
+                                        <h4>Kisaju Gardens</h4>
+                                        <p>Kisaju gardens is a beautifully gated community, with 2 and 3 bedroom uniform housing units </p><br>
 
                                         <p>
                                             <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
@@ -505,12 +505,12 @@
                                             <span><i class="fa fa-podcast"></i> Beacons Ready</span>
                                         </p><br>
 
-                                        <p class="price"><strong>Ksh 199,000</strong></p>
+                                        <p class="price"><strong>Ksh 750,000</strong></p>
                                     </div>
                                 </div>
                                 <!-- 2 project ajax page gallery -->
-                                <div class="box grid-2 notvisible open-project-link  mix category_2 mix_all">
-                                    <a href="" class="open-project">
+                                <div class="box grid-2 notvisible open-project-link  mix category_1 mix_all">
+                                    <a href="{{route("woodlands_nakuru")}}" class="open-project">
                                         <div class="folio-img-holder">
                                             <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
@@ -521,8 +521,8 @@
                                         </div>
                                     </a>
                                     <div class="box-details">
-                                        <h4>Pipeline Road Garden Ph 2</h4>
-                                        <p>Kitengela Greens phase 1 and Phase 2 are still available. Phase 3 (Sold Out). The land is ideal for agribusiness, speculation, commercial and residential purposes, with fully serviced, well maintained murram roads.</p><br>
+                                        <h4>Woodlands Nakuru</h4>
+                                        <p>The place is favorable and conducive for agriculture. The county is home to world famous tourist ...</p><br>
 
                                         <p>
                                             <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
@@ -530,39 +530,14 @@
                                             <span><i class="fa fa-podcast"></i> Beacons Ready</span>
                                         </p><br>
 
-                                        <p class="price"><strong>Ksh 600,000</strong></p>
+                                        <p class="price"><strong>Ksh 349,000</strong></p>
                                     </div>
                                 </div>
                                 <!-- 3 project ajax page iframe-->
-                                <div class="box grid-2 notvisible  open-project-link  mix category_3 mix_all">
-                                    <div class="folio-img-holder">
-                                        <img src="images/ngong.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-
-                                        <div class="folio-item">
-                                            <div class="folio-overlay"></div>
-                                            <span class="fol-but">View</span>
-                                        </div>
-                                    </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Ngong View Phase 1</h4>
-                                        <p>Kitengela Greens phase 1 and Phase 2 are still available. Phase 3 (Sold Out). The land is ideal for agribusiness, speculation, commercial and residential purposes, with fully serviced, well maintained murram roads.</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 600,000</strong></p>
-                                    </div>
-                                </div>
-
-                                <!-- 4 project youtube  video-->
-                                <div class="box  grid-2 notvisible  mix category_2 mix_all">
-                                    <a href="" class="popup-youtube">
+                                <div class="box grid-2 notvisible open-project-link  mix category_1 mix_all">
+                                    <a href="{{route("nanyuki_royale")}}" class="open-project">
                                         <div class="folio-img-holder">
-                                            <img src="images/fhills1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -571,8 +546,8 @@
                                         </div>
                                     </a>
                                     <div class="box-details">
-                                        <h4>Ngong View Phase 1</h4>
-                                        <p>Kitengela Greens phase 1 and Phase 2 are still available. Phase 3 (Sold Out). The land is ideal for agribusiness, speculation, commercial and residential purposes, with fully serviced, well maintained murram roads.</p><br>
+                                        <h4>Nanyuki Royale</h4>
+                                        <p>Introducing Nanyuki Royale a high value property which offers a breathtaking view of the snow </p><br>
 
                                         <p>
                                             <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
@@ -580,65 +555,88 @@
                                             <span><i class="fa fa-podcast"></i> Beacons Ready</span>
                                         </p><br>
 
-                                        <p class="price"><strong>Ksh 600,000</strong></p>
-                                    </div>
-                                </div>
-                                <!-- 5 project vimeo video-->
-                                <div class="box grid-2 notvisible  mix category_3 mix_all">
-                                    <a href="" class="popup-vimeo">
-                                        <div class="folio-img-holder">
-
-                                            <img src="images/kisaju.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-                                            <div class="folio-item">
-                                                <div class="folio-overlay"></div>
-                                                <span class="fol-but">View</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Kisaju Gardens</h4>
-                                        <p>Kisaju gardens is a beautifully gated community, with 2 and 3 bedroom uniform housing units (bungalows) with a swimming pool, basketball court, jogging track, electricity, water on site and a commercial center .The property also has a......</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 3,000,000</strong></p>
-                                    </div>
-                                </div>
-                                <!-- 6 project ajax modal-->
-                                <div class="box grid-2 notvisible  mix category_1 mix_all">
-                                    <a href="projects/modal.html" class="popup-with-move-anim">
-                                        <div class="folio-img-holder">
-                                            <img src="images/kili.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-
-                                            <div class="folio-item">
-                                                <div class="folio-overlay"></div>
-                                                <span class="fol-but">View</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Kilimo Poa</h4>
-                                        <p>Project locationWe are undertaking the Agribusiness Project in Nanyuki. The plots are located at the Foothills of Nanyuki and Lolldaiga hills with a view of both Mt. Kenya and Lolldaiga Hills. Its approximately 17 Km from Nanyuki..</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 785,000</strong></p>
+                                        <p class="price"><strong>Ksh 199,000</strong></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- 4 project ajax page iframe-->
+                        <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
+                            <a href="{{route("ngong_view")}}" class="open-project" data-toggle="modal" data-target="#myModal">
+                                <div class="folio-img-holder">
+                                    <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                    <div class="folio-item">
+                                        <div class="folio-overlay"></div>
+                                        <span class="fol-but">View</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="box-details">
+                                <h4>Ngong View</h4>
+                                <p>Ngong View is a high value property ideal for speculation, commercial and residential purposes</p><br>
+
+                                <p>
+                                    <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
+                                    <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
+                                    <span><i class="fa fa-podcast"></i> Beacons Ready</span>
+                                </p><br>
+
+                                <p class="price"><strong>Ksh 600,000</strong></p>
+                            </div>
+                        </div>
+
+                        <!-- 5 project ajax page iframe-->
+                        <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
+                            <a href="{{route("nanyuki_foothills")}}" class="open-project" data-toggle="modal" data-target="#myModal">
+                                <div class="folio-img-holder">
+                                    <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                    <div class="folio-item">
+                                        <div class="folio-overlay"></div>
+                                        <span class="fol-but">View</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="box-details">
+                                <h4>Nanyuki Foothills</h4>
+                                <p>Nanyuki Foothills is one of our biggest project sitting on a 102 acre area located ...</p><br>
+
+                                <p>
+                                    <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
+                                    <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
+                                    <span><i class="fa fa-podcast"></i> Beacons Ready</span>
+                                </p><br>
+
+                                <p class="price"><strong>Ksh 250,000</strong></p>
+                            </div>
+                        </div>
+
+                        <!-- 6 project ajax page iframe-->
+                        <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
+                            <a href="{{route("amara_gardens")}}" class="open-project" data-toggle="modal" data-target="#myModal">
+                                <div class="folio-img-holder">
+                                    <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                    <div class="folio-item">
+                                        <div class="folio-overlay"></div>
+                                        <span class="fol-but">View</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="box-details">
+                                <h4>Amara Gardens</h4>
+                                <p>Amara Gardens is fully controlled gated community that consists of 20 fully serviced half acre </p><br>
+
+                                <p>
+                                    <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
+                                    <span><i class="fa fa-map"></i> 1/2 Acre</span>&nbsp;
+                                </p><br>
+
+                                <p class="price"><strong>Ksh 1,500,000</strong></p>
+                            </div>
+                        </div>
+
+
                     </div><br><br>
 
-                    <div class="row-fluid">
-                    </div>
                     <div class="row-fluid">
                         <h3>Sold Out <span style="color:#ac2a2a !important; ">Properties</span></h3>
                     </div>
@@ -647,133 +645,9 @@
                             <div id="folio_container">
                                 <!-- 1 project ajax page slider-->
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
-                                    <a href="projects/project-ajax.html" class="open-project">
+                                    <a href="{{route("kilimo_poa")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                         <div class="folio-img-holder">
-                                            <img src="images/foothills.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-                                            <div class="folio-item">
-                                                <div class="folio-overlay"></div>
-                                                <span class="fol-but">View</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Nanyuki Havens</h4>
-                                        <p>Enjoy serenity of Nanyuki Haven today.Located 16KM away from Nanyuki town, 2km from Ol-Pejeta conservancy, 1.7km from Mount Kenya wildlife estate,1km from Sweet waters tented camp Serena, 1.6km from Enaai Golf course.</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 199,000</strong></p>
-                                    </div>
-                                </div>
-                                <!-- 2 project ajax page gallery -->
-                                <div class="box grid-2 notvisible open-project-link  mix category_2 mix_all">
-                                    <a href="projects/project-ajax3.html" class="open-project">
-                                        <div class="folio-img-holder">
-                                            <img src="images/foothills2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-
-                                            <div class="folio-item">
-                                                <div class="folio-overlay"></div>
-                                                <span class="fol-but">View</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Pipeline Road Garden Ph 2</h4>
-                                        <p>Kitengela Greens phase 1 and Phase 2 are still available. Phase 3 (Sold Out). The land is ideal for agribusiness, speculation, commercial and residential purposes, with fully serviced, well maintained murram roads.</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 600,000</strong></p>
-                                    </div>
-                                </div>
-                                <!-- 3 project ajax page iframe-->
-                                <div class="box grid-2 notvisible  open-project-link  mix category_3 mix_all">
-                                    <div class="folio-img-holder">
-                                        <img src="images/ngong.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-
-                                        <div class="folio-item">
-                                            <div class="folio-overlay"></div>
-                                            <span class="fol-but">View</span>
-                                        </div>
-                                    </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Ngong View Phase 1</h4>
-                                        <p>Kitengela Greens phase 1 and Phase 2 are still available. Phase 3 (Sold Out). The land is ideal for agribusiness, speculation, commercial and residential purposes, with fully serviced, well maintained murram roads.</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 600,000</strong></p>
-                                    </div>
-                                </div>
-
-                                <!-- 4 project youtube  video-->
-                                <div class="box  grid-2 notvisible  mix category_2 mix_all">
-                                    <a href="" class="popup-youtube">
-                                        <div class="folio-img-holder">
-                                            <img src="images/fhills1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-
-                                            <div class="folio-item">
-                                                <div class="folio-overlay"></div>
-                                                <span class="fol-but">View</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Ngong View Phase 1</h4>
-                                        <p>Kitengela Greens phase 1 and Phase 2 are still available. Phase 3 (Sold Out). The land is ideal for agribusiness, speculation, commercial and residential purposes, with fully serviced, well maintained murram roads.</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 600,000</strong></p>
-                                    </div>
-                                </div>
-                                <!-- 5 project vimeo video-->
-                                <div class="box grid-2 notvisible  mix category_3 mix_all">
-                                    <a href="//player.vimeo.com/video/50510424" class="popup-vimeo">
-                                        <div class="folio-img-holder">
-
-                                            <img src="images/kisaju.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
-                                            <div class="folio-item">
-                                                <div class="folio-overlay"></div>
-                                                <span class="fol-but">View</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="box-details">
-                                        <h4>Kisaju Gardens</h4>
-                                        <p>Kisaju gardens is a beautifully gated community, with 2 and 3 bedroom uniform housing units (bungalows) with a swimming pool, basketball court, jogging track, electricity, water on site and a commercial center .The property also has a......</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 3,000,000</strong></p>
-                                    </div>
-                                </div>
-                                <!-- 6 project ajax modal-->
-                                <div class="box grid-2 notvisible  mix category_1 mix_all">
-                                    <a href="projects/modal.html" class="popup-with-move-anim">
-                                        <div class="folio-img-holder">
-                                            <img src="images/kili.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="storage/kilimo_poa_phase_1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
 
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
@@ -783,38 +657,53 @@
                                     </a>
                                     <div class="box-details">
                                         <h4>Kilimo Poa</h4>
-                                        <p>Project locationWe are undertaking the Agribusiness Project in Nanyuki. The plots are located at the Foothills of Nanyuki and Lolldaiga hills with a view of both Mt. Kenya and Lolldaiga Hills. Its approximately 17 Km from Nanyuki..</p><br>
-
-                                        <p>
-                                            <span><i class="fa fa-file"></i> Ready Title Deeds</span>&nbsp;
-                                            <span><i class="fa fa-map"></i> 1/8 Acre</span>&nbsp;
-                                            <span><i class="fa fa-podcast"></i> Beacons Ready</span>
-                                        </p><br>
-
-                                        <p class="price"><strong>Ksh 785,000</strong></p>
+                                        <p>Have you always wondered what you will do with your piece of land before it’s appreciates in value?</p><br>
                                     </div>
                                 </div>
+
+                                <!-- 2 project ajax page slider-->
+                                <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
+                                    <a href="{{route("nanyuki_foothills_phase_1")}}" class="open-project" data-toggle="modal" data-target="#myModal">
+                                        <div class="folio-img-holder">
+                                            <img src="storage/nanyuki_phase_1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+
+                                            <div class="folio-item">
+                                                <div class="folio-overlay"></div>
+                                                <span class="fol-but">View</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="box-details">
+                                        <h4>Nanyuki Foothills Phase 1</h4>
+                                        <p>Nanyuki phase 1 is located 17 km from Nanyuki CBD along the Nanyuki - Rumuruti road</p><br>
+                                    </div>
+                                </div>
+
+                                <!-- 3 project ajax page slider-->
+                                <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
+                                    <a href="{{route("nanyuki_foothills_phase_2")}}" class="open-project" data-toggle="modal" data-target="#myModal">
+                                        <div class="folio-img-holder">
+                                            <img src="storage/nanyuki_phase_2.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+
+                                            <div class="folio-item">
+                                                <div class="folio-overlay"></div>
+                                                <span class="fol-but">View</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="box-details">
+                                        <h4>Nanyuki Foothills Phase 2</h4>
+                                        <p>Nanyuki phase 2 is located 17 km from Nanyuki CBD along the Nanyuki - Rumuruti road</p><br>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!--section subscribe-->
-            <section id="subscribe">
-                <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
-                <div class="content">
-                    <div class="subscribe-holder">
-                        <h3>Subscribe</h3>
-                        <div class="row-fluid">
-                            <div class="span4">
-                                <p>Be sure to leave your email address and we shall call you with more information about our products. </p>
-                            </div>
-                           @include('partials.mail_form')
-                        </div>
-                    </div>
-                </div>
-            </section>
+
             <!--section order-->
             <section id="order" class="gray-bg">
                 <div class="content">
@@ -828,7 +717,7 @@
     </div>
     <!--portfolio  end-->
     <!--============== Contact start ================-->
-    <div class="swiper-slide slide-bg single-page-title-holder" style="background:url(images/img3.jpg)">
+    <div class="swiper-slide slide-bg single-page-title-holder" style="background:url({{asset("storage/8316.jpg")}})">
         <div class="container">
             <!--page title-->
             <div class="page-title">
@@ -848,24 +737,24 @@
                         <div class="col-md-12">
                             <div id="folio_container">
                                 <div class="post">
-                                    <div class="box grid-2 notvisible open-project-link mix category_1 mix_all">
-                                        <a href="" class="open_project" target="_blank">
-                                            <div class="folio-img-holder">
-                                                <img src="{{asset('storage/nanyuki_royale.jpg')}}" class="transition custom-image" width="360" height="250" style="width: 360px !important; height: 250px !important;" alt="">
-                                            </div>
-                                        </a>
-                                        <div class="post-title">
-                                            <div class=" clearfix"></div>
-                                            <h3><a href="#" class="fadelink">Nanyuki Royale Site Visit</a></h3>
-                                        </div>
-                                        <div class="box-details">
-                                            <h3>All roads lead to Nanyuki Royale this Saturday 2 nd June 2018 for the Royale site visit.</h3>
-                                        </div>
-                                        <div>
-                                            <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
-                                        </div>
-                                    </div>
 
+                                <div class="box grid-2 notvisible open-project-link mix category_1 mix_all">
+                                    <a href="" class="open_project" target="_blank">
+                                        <div class="folio-img-holder">
+                                            <img src="{{asset('storage/nanyuki_royale.jpg')}}" class="transition custom-image" width="360" height="250" style="width: 360px !important; height: 250px !important;" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="post-title">
+                                        <div class=" clearfix"></div>
+                                        <h3><a href="#" class="fadelink">Nanyuki Royale Site Visit</a></h3>
+                                    </div>
+                                    <div class="box-details">
+                                        <h3>All roads lead to Nanyuki Royale this Saturday 2 nd June 2018 for the Royale site visit.</h3>
+                                    </div>
+                                    <div>
+                                        <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
+                                    </div>
+                                </div>
 
                                 <div class="box grid-2 notvisible open-project-link mix category_1 mix_all">
                                     <a href="" class="open_project" target="_blank">
@@ -875,10 +764,10 @@
                                     </a>
                                     <div class="post-title">
                                         <div class=" clearfix"></div>
-                                        <h3><a href="#" class="fadelink">Nanyuki Royale Site Visit</a></h3>
+                                        <h3><a href="#" class="fadelink">Ngong View Site Visit</a></h3>
                                     </div>
                                     <div class="box-details">
-                                        <h3>All roads lead to Nanyuki Royale this Saturday 2 nd June 2018 for the Royale site visit.</h3>
+                                        <h3>We are at it again this Saturday 2nd June 2018 for the Ngong View Site visit.</h3>
                                     </div>
                                     <div>
                                         <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
@@ -895,104 +784,39 @@
                                     </a>
                                     <div class="post-title">
                                         <div class=" clearfix"></div>
-                                        <h3><a href="#" class="fadelink">Nanyuki Royale Site Visit</a></h3>
+                                        <h3><a href="#" class="fadelink">Nanyuki Foothills Site Visit</a></h3>
                                     </div>
                                     <div class="box-details">
-                                        <h3>All roads lead to Nanyuki Royale this Saturday 2 nd June 2018 for the Royale site visit.</h3>
+                                        <h3>Mark the date! Saturday 2nd June 2018 for the Nanyuki Foothills site visit.</h3>
                                     </div>
                                     <div>
                                         <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
                                     </div>
                                 </div>
                             </div>
-                                {{----}}
-                            {{--<!-- Standard Post -->--}}
-                            {{--<div class="post">--}}
-                                {{--<div class="post-media">--}}
-                                    {{--<a href="blog-single.html" class="fadelink">--}}
-                                        {{--<img src="{{asset('storage/nanyuki_royale.jpg')}}" class="transition custom-image" alt="">--}}
-                                    {{--</a>--}}
-                                {{--</div>--}}
-                                {{--<div class="post-title">--}}
-
-                                    {{--<div class=" clearfix"></div>--}}
-                                    {{--<h3><a href="#" class="fadelink">Nanyuki Royale Site Visit</a></h3>--}}
-                                {{--</div>--}}
-                                {{--<div class="post-body">--}}
-                                    {{--<p>All roads lead to Nanyuki Royale this Saturday 2 nd June 2018 for the Royale site visit.</p>--}}
-                                    {{--<div>--}}
-                                        {{--<a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-
-                        {{--<div class="col-md-4">--}}
-                            {{--<!-- Standard Post -->--}}
-                            {{--<div class="post">--}}
-                                {{--<div class="post-media">--}}
-                                    {{--<a href="blog-single.html" class="fadelink">--}}
-                                        {{--<img  src="{{asset('storage/ngong_site_view.jpg')}}" class="custom-image transition" alt="">--}}
-                                    {{--</a>--}}
-                                {{--</div>--}}
-                                {{--<div class="post-title">--}}
-
-                                    {{--<div class=" clearfix"></div>--}}
-                                    {{--<h3><a href="#" class="fadelink">Ngong View Site Visit</a></h3>--}}
-                                {{--</div>--}}
-                                {{--<div class="post-body">--}}
-                                    {{--<p>We are at it again this Saturday 2 nd June 2018 for the Ngong View Site visit.</p>--}}
-                                    {{--<div>--}}
-                                        {{--<a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-
-                        {{--<div class="col-md-4">--}}
-                            {{--<!-- Standard Post -->--}}
-                            {{--<div class="post">--}}
-                                {{--<div class="post-media">--}}
-                                    {{--<a href="blog-single.html" class="fadelink">--}}
-                                        {{--<img src="{{asset('storage/nanyuki_foothills.jpg')}}" class="transition custom-image" alt="">--}}
-                                    {{--</a>--}}
-                                {{--</div>--}}
-                                {{--<div class="post-title">--}}
-
-                                    {{--<div class=" clearfix"></div>--}}
-                                    {{--<h3><a href="#" class="fadelink">Nanyuki Foothills Site Visit </a></h3>--}}
-                                {{--</div>--}}
-                                {{--<div class="post-body">--}}
-                                    {{--<p>Mark the date! Saturday 2 nd June 2018 for the Nanyuki Foothills site visit.</p>--}}
-                                    {{--<div>--}}
-                                        {{--<a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
                     </div>
                 </div>
             </div><br><br>
 
-            <!--section subscribe-->
-            <section id="subscribe">
-                <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
-                <div class="content">
-                    <div class="subscribe-holder">
-                        <h3>Subscribe</h3>
-                        <div class="row-fluid">
-                            <div class="span4">
-                                <p>Be sure to leave your email address and we shall call you with more information about our products. </p>
+                    <section id="subscribe">
+                        <div class="overlay"></div>
+                        <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
+                        <div class="content">
+                            <div class="subscribe-holder">
+                                <h3>Subscribe</h3>
+                                <div class="row-fluid">
+                                    <div class="span4">
+                                        <p>Be sure to leave your email address and we shall call you with more information about our products. </p>
+                                    </div>
+                                    @include('partials.mail_form')
+                                </div>
                             </div>
-                            @include('partials.mail_form')
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
         </div>
     </div>
         </div>
+
     </div>
     <br><br>
 
@@ -1304,7 +1128,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="" class="open-project" target="_blank">
                                         <div class="folio-img-holder">
-                                            <img src="images/golf.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
+                                            <img src="storage/nanyuki_foothils.jpg" alt="" width="360" height="250" style="width: 360px !important; height: 250px !important;">
                                         </div>
                                     </a>
                                     <div class="box-details">
@@ -1443,21 +1267,7 @@
             </section>
 
             <!--section subscribe-->
-            <section id="subscribe">
-                <div class="overlay"></div>
-                <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
-                <div class="content">
-                    <div class="subscribe-holder">
-                        <h3>Subscribe</h3>
-                        <div class="row-fluid">
-                            <div class="span4">
-                                <p>Be sure to leave your email address and we shall call you with more information about our products. </p>
-                            </div>
-                            @include('partials.mail_form')
-                        </div>
-                    </div>
-                </div>
-            </section>
+
         </div>
     </div>
 
@@ -1526,5 +1336,7 @@
             </section>
 
         </div>
+    </div>
+    </div>
     </div>
 @stop

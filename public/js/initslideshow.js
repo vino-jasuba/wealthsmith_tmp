@@ -1,9 +1,9 @@
 //------------------------------init Superslides-----------------------
 $('.transition-slider').superslides({
     animation: 'fade',
-    play: 10000
+    play: 20000
 });
 $('#slides').superslides({
     animation: 'fade',
-    play: 4000
+    play: 20000
 });

@@ -34,6 +34,43 @@ Route::post('/message','BlogController@message')->name('message');
 
 Route::post('/subscribe', 'BlogController@subscribe')->name('subscribe');
 
+Route::get('/kisaju-gardens', function (){
+    return view('partials.kisaju_gardens');
+})->name("kisaju_gardens");
+
+Route::get('/woodlands-nakuru', function (){
+   return view('partials.woodlands_nakuru');
+})->name("woodlands_nakuru");
+
+Route::get('/nanyuki-royale', function (){
+    return view('partials.nanyuki_royale');
+})->name("nanyuki_royale");
+
+Route::get('/ngong-view', function (){
+    return view('partials.ngong_view');
+})->name("ngong_view");
+
+Route::get('/nanyuki-foothills', function (){
+    return view('partials.nanyuki_foothills');
+})->name("nanyuki_foothills");
+
+
+Route::get('/amara-gardens', function (){
+    return view('partials.amara_gardens');
+})->name("amara_gardens");
+
+Route::get('/kilimo-poa', function (){
+    return view('partials.kilimo_poa');
+})->name("kilimo_poa");
+
+Route::get('/nanyuki-foothills-phase-one', function (){
+    return view('partials.nanyuki_foothills_phase_1');
+})->name("nanyuki_foothills_phase_1");
+
+
+Route::get('/nanyuki-foothills-phase-two', function (){
+    return view('partials.nanyuki_foothills_phase_2');
+})->name("nanyuki_foothills_phase_2");
 
 
 // Route::get('/tenders', 'PageController@tenders');
