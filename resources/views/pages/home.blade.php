@@ -1,8 +1,8 @@
-@extends('layouts.master-layout') 
+@extends('layouts.master-layout')
 
-@section ('header') 
-    The Wealthsmith Limited 
-@stop 
+@section ('header')
+    The Wealthsmith Limited
+@stop
 
 @section ('content')
     <!--============= about start =============-->
@@ -254,20 +254,23 @@
                 </div>
                 <div class="right-column">
                     <!--about image slider -->
-                    <div class="about-image">
-                        <div class="customNavigation">
-                            <a class="btn next-slide transition"><i class="fa fa-angle-right"></i></a>
-                            <a class="btn prev-slide transition"><i class="fa fa-angle-left"></i></a>
-                        </div>
-                        <div class="about-image-slider owl-carousel">
-                            <div class="item">
-                                <img src="images/foothills.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
+                    <div class="right-colum">
+                        <!--about image slider -->
+                        <div class="about-image">
+                            <div class="customNavigation">
+                                <a class="btn next-slide transition"><i class="fa fa-angle-right"></i></a>
+                                <a class="btn prev-slide transition"><i class="fa fa-angle-left"></i></a>
                             </div>
-                            <div class="item">
-                                <img src="images/foothills2.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
-                            </div>
-                            <div class="item">
-                                <img src="images/ngong.jpg" style="width:100% !important; height:520px !important;" alt="" class="respimg">
+                            <div class="about-image-slider owl-carousel owl-theme" style="display: block; opacity: 1;">
+                                <div class="owl-wrapper-outer autoHeight" style="height: 524px;"><div class="owl-wrapper" style="display: block; width: 4782px; left: 0px; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 797px;"><div class="item">
+                                                <img src="images/s2.jpg" alt="" class="respimg">
+                                            </div></div><div class="owl-item" style="width: 797px;"><div class="item">
+                                                <img src="images/s1.jpg" alt="" class="respimg">
+                                            </div></div><div class="owl-item" style="width: 797px;"><div class="item">
+                                                <img src="images/s3.jpg" alt="" class="respimg">
+                                            </div></div></div></div>
+
+
                             </div>
                         </div>
                     </div>
@@ -488,7 +491,7 @@
                                 <div class="box grid-2 notvisible  open-project-link  mix category_1 mix_all">
                                     <a href="{{route("kisaju_gardens")}}" class="open-project" data-toggle="modal" data-target="#myModal">
                                         <div class="folio-img-holder">
-                                            <img src="storage/kisaju_1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
+                                            <img src="images/s1.jpg" class="respimg transition" alt="" title="" style="width:360px !important; height:250px !important;">
                                             <div class="folio-item">
                                                 <div class="folio-overlay"></div>
                                                 <span class="fol-but">View</span>
@@ -701,18 +704,15 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="content">
+                    <div class="row-fluid">
+                         <a href="#" class="button go-contact  content-button transition hide-icon"><i class="fa fa-angle-right transition2"></i> <span class="text transition color-bg">Contact us</span></a>
+                    </div>
+                </div>
+
             </section>
             <!--section subscribe-->
-
-            <!--section order-->
-            <section id="order" class="gray-bg">
-                <div class="content">
-                    <h3>LETS TALK</h3>
-                    <p>Do you want to converse with us online now? Tell us what you would like us to do for you here!  </p>
-                    <div class="clearfix"></div>
-                    <a href="#" class="button go-contact  content-button transition hide-icon"><i class="fa fa-angle-right transition2"></i> <span class="text transition color-bg">Order</span></a>
-                </div>
-            </section>
         </div>
     </div>
     <!--portfolio  end-->
@@ -738,83 +738,62 @@
                             <div id="folio_container">
                                 <div class="post">
 
-                                <div class="box grid-2 notvisible open-project-link mix category_1 mix_all">
-                                    <a href="" class="open_project" target="_blank">
-                                        <div class="folio-img-holder">
-                                            <img src="{{asset('storage/nanyuki_royale.jpg')}}" class="transition custom-image" width="360" height="250" style="width: 360px !important; height: 250px !important;" alt="">
+                                    <!-- 6 project ajax modal-->
+                                    <div class="box grid-2  mix category_1 mix_all notvisible" style="display: inline-block; opacity: 1;">
+                                        <a href="{{route("nanyuki_event")}}" class="popup-with-move-anim">
+                                            <div class="folio-img-holder">
+                                                <img src="storage/nanyuki_royale.jpg" class="respimg transition" alt="" title="">
+                                                <div class="folio-item" style="opacity: 0;">
+                                                    <div class="folio-overlay"><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span></div>
+                                                    <span class="fol-but" style="opacity: 0; bottom: -50%;">View</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="box-details">
+                                            <h3>Nanyuki Royale Site Visit</h3>
                                         </div>
-                                    </a>
-                                    <div class="post-title">
-                                        <div class=" clearfix"></div>
-                                        <h3><a href="#" class="fadelink">Nanyuki Royale Site Visit</a></h3>
                                     </div>
-                                    <div class="box-details">
-                                        <h3>All roads lead to Nanyuki Royale this Saturday 2 nd June 2018 for the Royale site visit.</h3>
-                                    </div>
-                                    <div>
-                                        <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
-                                    </div>
-                                </div>
-
-                                <div class="box grid-2 notvisible open-project-link mix category_1 mix_all">
-                                    <a href="" class="open_project" target="_blank">
-                                        <div class="folio-img-holder">
-                                            <img src="{{asset('storage/ngong_site_view.jpg')}}" class="transition custom-image" width="360" height="250" style="width: 360px !important; height: 250px !important;" alt="">
+                                    <!-- 7 project gallery-->
+                                    <div class="box grid-2  mix category_1 mix_all notvisible" style="display: inline-block; opacity: 1;">
+                                        <a href="{{route("ngong_event")}}" class="popup-with-move-anim">
+                                            <div class="folio-img-holder">
+                                                <img src="storage/ngong_site_view.jpg" class="respimg transition" alt="" title="">
+                                                <div class="folio-item" style="opacity: 0;">
+                                                    <div class="folio-overlay"><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span></div>
+                                                    <span class="fol-but" style="opacity: 0; bottom: -50%;">View</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="box-details">
+                                            <h3>Ngong View Site Visit</h3>
                                         </div>
-                                    </a>
-                                    <div class="post-title">
-                                        <div class=" clearfix"></div>
-                                        <h3><a href="#" class="fadelink">Ngong View Site Visit</a></h3>
                                     </div>
-                                    <div class="box-details">
-                                        <h3>We are at it again this Saturday 2nd June 2018 for the Ngong View Site visit.</h3>
-                                    </div>
-                                    <div>
-                                        <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
-                                    </div>
-                                </div>
 
-
-
-                                <div class="box grid-2 notvisible open-project-link mix category_1 mix_all">
-                                    <a href="" class="open_project" target="_blank">
-                                        <div class="folio-img-holder">
-                                            <img src="{{asset('storage/nanyuki_foothills.jpg')}}" class="transition custom-image" width="360" height="250" style="width: 360px !important; height: 250px !important;" alt="">
+                                    <div class="box grid-2  mix category_1 mix_all notvisible" style="display: inline-block; opacity: 1;">
+                                        <a href="{{route("foothills_event")}}" class="popup-with-move-anim">
+                                            <div class="folio-img-holder">
+                                                <img src="storage/nanyuki_foothills.jpg" class="respimg transition" alt="" title="">
+                                                <div class="folio-item" style="opacity: 0;">
+                                                    <div class="folio-overlay"><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span><span class="transition2 scale-callback"></span></div>
+                                                    <span class="fol-but" style="opacity: 0; bottom: -50%;">View</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="box-details">
+                                            <h3>Nanyuki Foothills Site Visit</h3>
                                         </div>
-                                    </a>
-                                    <div class="post-title">
-                                        <div class=" clearfix"></div>
-                                        <h3><a href="#" class="fadelink">Nanyuki Foothills Site Visit</a></h3>
                                     </div>
-                                    <div class="box-details">
-                                        <h3>Mark the date! Saturday 2nd June 2018 for the Nanyuki Foothills site visit.</h3>
-                                    </div>
-                                    <div>
-                                        <a href="blog-single.html" class="button  float-button content-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Read more</span></a>
-                                    </div>
-                                </div>
                             </div>
                     </div>
                 </div>
             </div><br><br>
-
-                    <section id="subscribe">
-                        <div class="overlay"></div>
-                        <div class="bg bg-parallax" style="background:url(images/foothills.jpg)"></div>
-                        <div class="content">
-                            <div class="subscribe-holder">
-                                <h3>Subscribe</h3>
-                                <div class="row-fluid">
-                                    <div class="span4">
-                                        <p>Be sure to leave your email address and we shall call you with more information about our products. </p>
-                                    </div>
-                                    @include('partials.mail_form')
-                                </div>
-                            </div>
-                        </div>
-                    </section>
         </div>
-    </div>
+                <div class="content">
+                    <div class="row-fluid">
+                        <a href="#" class="button go-blog  content-button transition hide-icon"><i class="fa fa-angle-right transition2"></i> <span class="text transition color-bg">Subscribe</span></a>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>

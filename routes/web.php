@@ -73,6 +73,20 @@ Route::get('/nanyuki-foothills-phase-two', function (){
 })->name("nanyuki_foothills_phase_2");
 
 
+Route::get('/nanyuki-gardens-site-visit', function (){
+    return view('partials.event_nanyuki_gardens');
+})->name("nanyuki_event");
+
+
+Route::get('/nanyuki-foothills-site-visit', function (){
+    return view('partials.event_foothills');
+})->name("foothills_event");
+
+
+Route::get('/ngong-view-site-visit', function (){
+    return view('partials.event_ngong');
+})->name("ngong_event");
+
 // Route::get('/tenders', 'PageController@tenders');
 
 // Route::get('/grants', 'PageController@grants');

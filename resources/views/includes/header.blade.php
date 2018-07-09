@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/color.css">
     <!-- panel css -->
-    <link rel="stylesheet" href="http://mikemagero.co.ke/wealthsmith/css/panel.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/panel.css" type="text/css" media="screen">
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="images/logo.png">
     <!--=============== fonts ===============-->
@@ -29,7 +29,6 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,600,800' rel='stylesheet' type='text/css'>
     <!--=============== google map ===============-->
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body onLoad="initialize()">
 <!--================= main start ================-->
@@ -78,7 +77,7 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <!--================= Home start ================-->
-            <div class="swiper-slide slide-bg" style="background:url(images/foothills.jpg)">
+            <div class="swiper-slide slide-bg" style="background:url()">
                 <!-- Slider  -->
                 <div id="slides" class="transition-slider">
                     <ul class="slides-container">
@@ -106,16 +105,35 @@
                         <!-- Slide 2 -->
                         <li>
                             <div style="background-image: url('images/s2.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            {{--<section class="homeholder no-bg">--}}
+                                {{--<div class="content" id="home">--}}
+
+
+                                    {{--<h2 id="property_name" class="elem tetx-rotator">Nanyuki Royale</h2>--}}
+                                    {{--<div class="home-separator"><span></span></div>--}}
+                                    {{--<div class="tetx-rotator">--}}
+                                        {{--<div class="tlt">--}}
+                                            {{--<ul class="texts">--}}
+                                                {{--<li id="property_deed">Ready Title Deeds.</li>--}}
+                                                {{--<li id="property_beacons">Beacons Ready</li>--}}
+                                                {{--<li id="property_price">Ksh 199,000</li>--}}
+                                            {{--</ul>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<a id="property_link" href="#" class="button gw transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</section>--}}
                             <section class="homeholder no-bg">
                                 <div class="content" id="home">
-                                    <h2 id="property_name" class="elem tetx-rotator">Nanyuki Royale</h2>
+                                    <h2 id="property_name" class="elem tetx-rotator">Kisaju Gardens</h2>
                                     <div class="home-separator"><span></span></div>
                                     <div class="tetx-rotator">
                                         <div class="tlt">
                                             <ul class="texts">
                                                 <li id="property_deed">Ready Title Deeds.</li>
                                                 <li id="property_beacons">Beacons Ready</li>
-                                                <li id="property_price">Ksh 199,000</li>
+                                                <li id="property_price">Ksh 750,000</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -127,17 +145,55 @@
                         <!-- Slide 3 -->
                         <li>
                             <div style="background-image: url('images/s3.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            {{--<section class="homeholder no-bg">--}}
+                                {{--<div class="content" id="home">--}}
+                                    {{--<h2 id="property_name" class="elem tetx-rotator">Woodlands Nakuru</h2>--}}
+                                    {{--<div class="home-separator"><span></span></div>--}}
+                                    {{--<div class="tetx-rotator">--}}
+                                        {{--<div class="tlt ">--}}
+                                            {{--<ul class="texts text-dark">--}}
+                                                {{--<li id="property_deed" class="text-dark">Ready Title Deeds.</li>--}}
+                                                {{--<li id="property_deed" class="text-dark">Unwind escape discover.</li>--}}
+                                                {{--<li id="property_beacons" class="text-dark">Beacons Ready</li>--}}
+                                                {{--<li id="property_price" class="text-dark">Ksh 349,000</li>--}}
+                                            {{--</ul>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<a id="property_link" href="#" class="button gw transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</section>--}}
                             <section class="homeholder no-bg">
                                 <div class="content" id="home">
-                                    <h2 id="property_name" class="elem tetx-rotator">Woodlands Nakuru</h2>
+                                    <h2 id="property_name" class="elem tetx-rotator">Kisaju Gardens</h2>
                                     <div class="home-separator"><span></span></div>
                                     <div class="tetx-rotator">
-                                        <div class="tlt ">
-                                            <ul class="texts text-dark">
-                                                <li id="property_deed" class="text-dark">Ready Title Deeds.</li>
-                                                <li id="property_deed" class="text-dark">Unwind escape discover.</li>
-                                                <li id="property_beacons" class="text-dark">Beacons Ready</li>
-                                                <li id="property_price" class="text-dark">Ksh 349,000</li>
+                                        <div class="tlt">
+                                            <ul class="texts">
+                                                <li id="property_deed">Ready Title Deeds.</li>
+                                                <li id="property_beacons">Beacons Ready</li>
+                                                <li id="property_price">Ksh 750,000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a id="property_link" href="#" class="button gw transition hide-icon"><i class="fa fa-angle-right transition3"></i><span class="text transition color-bg">View Property</span></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </section>
+                        </li>
+
+                        <li>
+                            <div style="background-image: url('images/s4.jpg');"   class="slides-fullscreen-img anim-slides"></div>
+                            <section class="homeholder no-bg">
+                                <div class="content" id="home">
+                                    <h2 id="property_name" class="elem tetx-rotator">Kisaju Gardens</h2>
+                                    <div class="home-separator"><span></span></div>
+                                    <div class="tetx-rotator">
+                                        <div class="tlt">
+                                            <ul class="texts">
+                                                <li id="property_deed">Ready Title Deeds.</li>
+                                                <li id="property_beacons">Beacons Ready</li>
+                                                <li id="property_price">Ksh 750,000</li>
                                             </ul>
                                         </div>
                                     </div>

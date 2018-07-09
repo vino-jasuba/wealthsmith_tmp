@@ -92,10 +92,15 @@ function initKrobs() {
     });
     $(".gw").click(function(b) {
         b.preventDefault();
+        a.swipeTo(2);
+    });
+    $(".go-blog").click(function(b) {
+        b.preventDefault();
+        a.swipeTo(4);
     });
     $(".go-contact").click(function(b) {
         b.preventDefault();
-        a.swipeTo(3);
+        a.swipeTo(6);
     });
     $(".arrow-left").on("click", function(b) {
         b.preventDefault();
@@ -750,20 +755,20 @@ $(document).ready(function() {
     }
 
     nextItem = null;
-
-    axios.get('api/properties')
-        .then(function (response) {
-            console.log(response);
-            properties = readResponseData(response.data);
-            nextItem = roundround(properties);
-            changeProperty(nextItem());
-            setInterval(function() {
-                changeProperty(nextItem());
-            }, 30000);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+    //
+    // axios.get('api/properties')
+    //     .then(function (response) {
+    //         console.log(response);
+    //         properties = readResponseData(response.data);
+    //         nextItem = roundround(properties);
+    //         changeProperty(nextItem());
+    //         setInterval(function() {
+    //             changeProperty(nextItem());
+    //         }, 30000);
+    //     })
+    //     .catch(function (error) {
+    //         console.log(error);
+    //     });
 });
 
 // slider content --------------------------------
